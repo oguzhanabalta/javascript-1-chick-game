@@ -71,10 +71,11 @@ button{
     font-size: 35px;
     height: 70px;
     color: #fff;
-    background-color: blue;
+    background-color:  rgb(144, 253, 122);
     border-radius: 10px;
     margin-left: 20px;
     margin-top: 90px;
+    box-shadow: #000000;
 }
 
 @media (min-width: 667px) and (max-width: 1024px){
@@ -112,7 +113,7 @@ button{
         font-size: 15px;
         height: 40px;
         color: #fff;
-        background-color: blue;
+        background-color: rgb(144, 253, 122);
         border-radius: 10px;
         margin-left: 10px;
         margin-top: 10px;
@@ -128,7 +129,7 @@ button{
 
     .hole:after{
         display:block;
-        background: url('chick.jpg') bottom center no-repeat;
+        background: url('grass.jpg') bottom center no-repeat;
         background-size:contain;
         content: '';
         max-width: 70%;
